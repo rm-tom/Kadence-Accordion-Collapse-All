@@ -2,6 +2,8 @@
 
 Important Note: If you find this useful, please send me a note at roshantom [at] berkeley.edu, as this (almost) ruined my day!
 
+Credit to https://dev.to/designyff/onoff-toggle-button-step-by-step-guide-3lal for the frontend.
+
 
 # Instructions
 
