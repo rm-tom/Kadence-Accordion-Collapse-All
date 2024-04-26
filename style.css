@@ -1,0 +1,42 @@
+	.text_OC {
+    font-size: 15px;
+    color: #555555;
+	}
+
+	.toggleAll {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #494949;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+	}
+
+	.circle_OC {
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: #555555;
+    transition: .3s;
+	}
+
+	.active_OC {
+    border-color: #555555;
+	}
+
+	.active_OC + .text_OC {
+    color: #555555;
+	}
+
+	.active_OC .circle_OC {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: #555555;
+	}
